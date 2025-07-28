@@ -1,0 +1,13 @@
+[package]
+name = "validrs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+phonenumber = "0.3.7"
+regex = "1.11.1"
+thiserror = "2.0.12"
+validrs_derive = { path = "./validrs_derive" }
+
+# [features]
+# derive = ["dep:validrs_derive"]
